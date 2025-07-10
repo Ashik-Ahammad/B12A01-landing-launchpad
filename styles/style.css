@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* To use the fonts!
+  font-family: "Inter", sans-serif; 
+  font-family: "Raleway", sans-serif;
+*/
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #f5f7fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ------------------------------------------Header Nav and banner------------------------------------ */
+header {
+  background: #f5f7fa url("/assets/Hero-bg.png") repeat;
+  min-width: 1158px;
+  height: 900px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.navbar {
+  width: 1158px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  z-index: 2; 
+}
+
+/* Navbar list */
+.navbar ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li:first-child {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 34px;
+  color: rgb(78, 71, 255);
+  letter-spacing: 0%;
+  width: 99px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar .nav-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background: #3d3ded;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 12px 36px 12px 36px;
+  width: 132px;
+  height: 48px;
+}
+
+.navbar .nav-btn:hover {
+  background: #2323b5;
+}
+
+.banner-image {
+  width: 100%;
+  height: 0;
+}
+
+.banner-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.banner-content h1 {
+  color: rgb(37, 36, 50);
+  font-family: Raleway;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.focus-btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  width: 178px;
+  height: 48px;
+  color: #fff;
+  background: rgb(78, 71, 255);
+  border: none;
+  border-radius: 8px;
+  line-height: 150%;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.focus-btn:hover {
+  background: #2323b5;
+}
+
