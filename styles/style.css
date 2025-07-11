@@ -341,5 +341,224 @@ height: 48px;
   font-weight: 600;
 }
 
+/* ----------------------------------Web Conf Ready to focus better Section--------------------------------  */
 
+.focus-hero-section {
+  background: #f6f8fe;
+  display: flex;
+  justify-content: center;
+  margin-top: 137px;
+}
+
+.focus-hero-container {
+  background: rgb(255, 255, 255);
+  border-radius: 24px;
+  width: 100%;
+  max-width: 1250px; 
+  padding: 71px 150px 71px 150px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: none;
+}
+
+.focus-hero-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #22223b;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.focus-hero-desc {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.focus-hero-btn {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background: rgb(78, 71, 255);
+  border: none;
+  border-radius: 8px;
+  padding: 14px 36px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.focus-hero-btn:hover {
+  background: #2323b5;
+}
+
+.focus-hero-image-wrap {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.focus-hero-img {
+  width: 100%;
+  max-width: 840px;
+  border-radius: 40px;
+  display: block;
+}
+
+/* --------------------------------Contact Section--------------------------------- */
+
+.contact-section {
+  margin-top: 163.23px;
+  margin-bottom: 71px;
+  background-color: #f6f8ff;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  max-width: 1250px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 5px;
+  background-color: #f6f8ff;
+  border-radius: 12px;
+}
+
+.contact-left {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-left h2 {
+  font-size: 97px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  color: rgb(0, 0, 0);
+  line-height: 120%;
+  letter-spacing: 0%;
+  margin: 0;
+}
+
+/* form  */
+.contact-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.contact-form label {
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+
+.contact-form input {
+  max-height: 70px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  max-height: 135px;
+}
+
+.contact-form button {
+  margin-top: 10px;
+  padding: 14px;
+  background-color: rgb(78, 71, 255);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  height: 62px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  
+}
+
+.contact-form button:hover {
+  background-color: #3737d3;
+}
+
+/* ---------------------Footer-------------------------------- */
+
+.footer-section {
+  background: #fff;
+  padding: 103px 0 103px 0;
+  text-align: center;
+  border-top: 1px solid #ececf6;
+}
+
+.footer-logo {
+  font-family: "Inter", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  color: rgb(78, 71, 255);
+  letter-spacing: 0%;
+  margin-bottom: 8px;
+}
+
+.footer-desc {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(137, 135, 161);
+  margin-bottom: 20px;
+  width: 531px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav li {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: rgb(137, 135, 161);
+  cursor: pointer;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: rgb(137, 135, 161);
+}
+
+.footer-nav li:hover {
+  color: rgb(137, 135, 161);
+  text-decoration: underline;
+}
 
