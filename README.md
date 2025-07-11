@@ -1,6 +1,6 @@
-```
+
 ### Live Site: https://ashik-ahammad.github.io/crafted-ui/
-```
+
 
 # CraftedUI Landing Page
 
