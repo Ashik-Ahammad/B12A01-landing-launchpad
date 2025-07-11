@@ -123,3 +123,73 @@ header {
   background: #2323b5;
 }
 
+/* --------------------------------------------ACTION SECTION--------------------------------------------- */
+
+.action-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #f6f8fe;
+  margin-top: 116px;
+}
+
+.action-left {
+  max-width: 517px;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.action-left h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: rgb(37, 36, 50);
+  margin: 0 0 23px 0;
+}
+
+.action-left p {
+  color: rgba(37, 36, 50, 0.5);
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 517px;
+  height: 60px;
+  margin: 0 0 23px 0;
+}
+
+.action-btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  width: 229px;
+height: 48px;
+  color: #fff;
+  background: #3d3ded;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 32px;
+  cursor: pointer;
+  margin-top: 0;
+}
+
+.action-btn:hover {
+  background: #2323b5;
+}
+
+.action-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-img {
+  width: 403px;
+  height: 328px;
+  border-radius: 40px;
+  object-fit: cover;
+  background: #fff;
+}
+
