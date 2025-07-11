@@ -18,7 +18,7 @@ body {
 
 /* ------------------------------------------Header Nav and banner------------------------------------ */
 header {
-  background: #f5f7fa url("/assets/Hero-bg.png") repeat;
+  background: #f5f7fa url("../assets/Hero-bg.png") repeat;
   min-width: 1158px;
   height: 900px;
   margin: 0;
