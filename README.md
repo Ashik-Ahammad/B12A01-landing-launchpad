@@ -2,7 +2,7 @@
 
 A modern, clean landing page template of a Ui builder company, built with HTML and CSS. This project features a professional layout, engaging hero section, user testimonials, statistics, and a contact form—all and footer.
 
-### Live Site: https://ashik-ahammad.github.io/crafted-ui/
+### Live Site: [Visit](https://ashik-ahammad.github.io/crafted-ui/)
 
 ## Features
 
