@@ -62,12 +62,6 @@ A modern, clean landing page template of a Ui builder company, built with HTML a
 - **Content:**  
   Edit text, testimonials, and links directly in `index.html`.
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
 
 
 #### UI:
