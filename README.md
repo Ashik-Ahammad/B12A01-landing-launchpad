@@ -67,7 +67,7 @@ A modern, clean landing page template of a Ui builder company, built with HTML a
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
-**CraftedUI** – Elevate your agency’s web presence!
+
 
 
 #### UI:
