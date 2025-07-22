@@ -6,9 +6,12 @@
   font-family: "Raleway", sans-serif;
 */
 
+
 body {
   margin: 0;
   padding: 0;
+    min-width: 320px;
+
   font-family: "Inter", sans-serif;
   background: #f5f7fa;
 }
@@ -557,4 +560,209 @@ header {
 .footer-nav li:hover {
   color: rgb(137, 135, 161);
   text-decoration: underline;
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++ Responsive Designs ++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* ---------------------------------------- Tablet Devices (≤ 768px) ------------------------------------------ */
+@media (max-width: 768px) {
+  header {
+    min-width: 100%;
+    height: auto;
+    padding: 20px 0;
+    align-items: center;
+  }
+
+  .navbar {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+    align-items: center;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .banner-content h1 {
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    padding: 0 16px;
+  }
+
+  .focus-btn {
+    margin-top: 16px;
+  }
+
+  .action-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 16px;
+    gap: 32px;
+  }
+
+  .action-left,
+  .action-right {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .action-left h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .action-left p {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .action-btn {
+    margin-top: 16px;
+  }
+
+  .productive-user-container {
+    width: 90%;
+    padding: 30px 16px;
+    height: auto;
+    text-align: center;
+  }
+
+  .productive-user-container h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .productive-user-stats {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .productive-user-stat .stat-number {
+    font-size: 32px;
+  }
+
+  .productive-user-stat .stat-label {
+    font-size: 14px;
+  }
+
+  .user-feedback-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .user-feedback-card {
+    width: 90%;
+    padding: 24px 16px;
+  }
+
+  .focus-hero-container {
+    width: 90%;
+    padding: 32px 16px;
+    text-align: center;
+  }
+
+  .focus-hero-title {
+    font-size: 28px;
+  }
+
+  .focus-hero-desc {
+    font-size: 14px;
+  }
+
+  .focus-hero-img {
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 16px;
+  }
+
+  .contact-left h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 16px;
+  }
+
+  .footer-logo {
+    font-size: 48px;
+  }
+
+  .footer-desc {
+    width: 90%;
+    font-size: 14px;
+    margin: 0 auto 24px;
+  }
+
+  .footer-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-nav li {
+    font-size: 16px;
+  }
+}
+
+/* ---------------------------------------------- Mobile Devices (≤ 576px) ----------------------------------------- */
+@media (max-width: 576px) {
+  .banner-content h1 {
+    font-size: 32px;
+    line-height: 42px;
+    padding: 0 12px;
+  }
+
+  .productive-user-container h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .productive-user-stat .stat-number {
+    font-size: 28px;
+  }
+
+  .action-left h2 {
+    font-size: 24px;
+  }
+
+  .focus-hero-title {
+    font-size: 24px;
+  }
+
+  .contact-left h2 {
+    font-size: 32px;
+  }
+
+  .footer-logo {
+    font-size: 36px;
+  }
+
+  .footer-desc {
+    font-size: 13px;
+  }
 }
